@@ -28,9 +28,9 @@ const Products = ()=>{
       <div>
          <Carousel hero={Hero} class="hero_products"/>
          <Product array={arrayAudi} company="Audi"/>
+         <Product array={arrayPorsche} company="Porsche"/>
          <Product array={arrayBMW} company="BMW"/>
          <Product array={arrayMercedes} company="Mercedes Benz"/>
-         <Product array={arrayPorsche} company="Porsche"/>
       </div>
    )
 }
