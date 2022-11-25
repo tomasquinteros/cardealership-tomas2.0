@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles/styles.scss";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { useEffect } from "react";
+
+// Import components
+import { Nav } from "./components/Navbar/Nav";
+import { Footer } from "./components/Footer/Footer";
+// Import Pages
+import { Home } from "./pages/Home/Home";
+import { Products } from "./pages/Products/Products";
+import { About } from "./pages/About/About";
+import { Galery } from "./pages/Galery/Galery";
+import { Contact } from "./pages/Contact/Contact";
+// Create function to leave page up
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+};
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <ScrollToTop />
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/galery" element={<Galery />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
+      <Footer/>
     </div>
   );
 }
