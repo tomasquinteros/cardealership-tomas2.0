@@ -7,9 +7,7 @@ $color-primary: #019fb6;
 }
 body {
    margin: 0;
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-   sans-serif;
+   font-family: 'Poppins', sans-serif;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
 }
@@ -23,14 +21,21 @@ code {
    max-width: 990px;
    margin: 0 auto;
 }
-
+@media (max-with: 576px) {
+   .max-content {
+      max-width: 576px;
+      margin: 0;
+   }
+}
 // Components
 @import '../components/Navbar/nav';
 @import '../components/Footer/footer';
 
 // Pages
 @import '../pages/Home/home.scss';
-
+@import '../pages/Products/product';
+@import '../pages/About/about';
+@import '../pages/Contact/contact';
 // Props 
 @import '../props/carousel.scss';
 

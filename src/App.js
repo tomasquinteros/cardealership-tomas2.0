@@ -9,7 +9,6 @@ import { Footer } from "./components/Footer/Footer";
 import { Home } from "./pages/Home/Home";
 import { Products } from "./pages/Products/Products";
 import { About } from "./pages/About/About";
-import { Galery } from "./pages/Galery/Galery";
 import { Contact } from "./pages/Contact/Contact";
 // Create function to leave page up
 const ScrollToTop = () => {
@@ -29,11 +28,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
           <Route path="/about" element={<About />} />
-          <Route path="/galery" element={<Galery />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
-      <Footer/>
+{/*       <Footer/> */}
     </div>
   );
 }

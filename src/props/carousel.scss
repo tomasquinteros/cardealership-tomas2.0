@@ -8,3 +8,9 @@
    max-height: 400px;
    object-fit: cover;
 }
+
+@media (max-width:576px) {
+   .hero_products {
+      height: 60vh;
+   }
+}

@@ -3,161 +3,161 @@
             "id": 1,
             "name": "A1",
             "price": "40.000",
-            "img": "./images/imgProducts/ModelosAudi/audiA1.webp",
+            "img": "./images/imagesProducts/Audi/audiA1.webp",
             "model": "Audi"
         },
         {
             "id": 2,
             "name": "A3 Sportback",
             "price": "41.340",
-            "img": "./images/imgProducts/ModelosAudi/audiA3Sportback.webp",
+            "img": "./images/imagesProducts/Audi/audiA3Sportback.webp",
             "model": "Audi"
         },
         {
             "id": 3,
             "name": "A4 Sedan",
             "price": "57.900",
-            "img": "./images/imgProducts/ModelosAudi/audiA4Sedan.webp",
+            "img": "./images/imagesProducts/Audi/audiA4Sedan.webp",
             "model": "Audi"
         },
         {
             "id": 4,
             "name": "A5 Coupe",
             "price": "67.908",
-            "img": "./images/imgProducts/ModelosAudi/audiaA5Coupe.webp",
+            "img": "./images/imagesProducts/Audi/audiaA5Coupe.webp",
             "model": "Audi"
         },{
             "id": 21,
             "name": "Q2",
             "price": "42.850",
-            "img": "./images/imgProducts/ModelosAudi/audiQ2.webp",
+            "img": "./images/imagesProducts/Audi/audiQ2.webp",
             "model": "Audi"
         },
         {
             "id": 5,
             "name": "Q3 Sportback",
             "price": "79.850",
-            "img": "./images/imgProducts/ModelosAudi/audiQ3Sportback.webp",
+            "img": "./images/imagesProducts/Audi/audiQ3Sportback.webp",
             "model": "Audi"
         },
         {"id": 6,
             "name": "Clase A Hatchback",
             "price": "46.000",
-            "img": "./images/imgProducts/ModelosMercedesBenz/mercedes-claseA.png",
+            "img": "./images/imagesProducts/Mercedes/mercedes-claseA.webp",
             "model": "Mercedes Benz"
         },
         {
             "id": 7,
             "name": "AMG A45",
             "price": "101.000",
-            "img": "./images/imgProducts/ModelosMercedesBenz/mercedes-claseAMG.jpg",
+            "img": "./images/imagesProducts/Mercedes/mercedes-claseAMG_1.webp",
             "model": "Mercedes Benz"
         },
         {
             "id": 8,
             "name": "Clase A Sedan",
             "price": "48.000",
-            "img": "./images/imgProducts/ModelosMercedesBenz/mercedes-claseASedan.webp",
+            "img": "./images/imagesProducts/Mercedes/mercedes-claseASedan.webp",
             "model": "Mercedes Benz"
         },
         {
             "id": 9,
             "name": " Clase C Sedan",
             "price": "58.900",
-            "img": "./images/imgProducts/ModelosMercedesBenz/mercedes-claseC.jpg",
+            "img": "./images/imagesProducts/Mercedes/mercedes-claseC_1.webp",
             "model": "Mercedes Benz"
         },
         {
             "id": 10,
             "name": "Clase G",
             "price": "310.000",
-            "img": "./images/imgProducts/ModelosMercedesBenz/mercedes-claseG.jpg",
+            "img": "./images/imagesProducts/Mercedes/mercedes-claseG_1.webp",
             "model": "Mercedes Benz"
         },{
             "id": 22,
             "name": "GLC Coupe",
             "price": "109.850",
-            "img": "./images/imgProducts/ModelosMercedesBenz/mercedes-claseGLC.webp",
+            "img": "./images/imagesProducts/Mercedes/mercedes-claseGLC.webp",
             "model": "Mercedes Benz"
         },
         {"id": 11,
             "name": "Serie 1",
             "price": "49.600",
-            "img": "./images/imgProducts/ModelosBMW/bmwSerie1.jpg",
+            "img": "./images/imagesProducts/BMW/bmwSerie1.webp",
             "model": "BMW"
         },
         {
             "id": 12,
             "name": "Serie 2 Coupe",
             "price": "51.900",
-            "img": "./images/imgProducts/ModelosBMW/bmwSerie2Coupe.jpg",
+            "img": "./images/imagesProducts/BMW/bmwSerie2Coupe.webp",
             "model": "BMW"
         },{
             "id": 23,
             "name": "Serie 2 Gran Coupe",
             "price": "81.900",
-            "img": "./images/imgProducts/ModelosBMW/bmwSerie2GranCoupe.jpg",
+            "img": "./images/imagesProducts/BMW/bmwSerie2GranCoupe.webp",
             "model": "BMW"
         },
         {
             "id": 13,
             "name": "Serie 2 M240i",
             "price": "101.900",
-            "img": "./images/imgProducts/ModelosBMW/bmwSerie2M240i.jpg",
+            "img": "./images/imagesProducts/BMW/bmwSerie2M240i.webp",
             "model": "BMW"
         },
         {
             "id": 14,
             "name": "X4",
             "price": "117.900",
-            "img": "./images/imgProducts/ModelosBMW/bmwX4.jpg",
+            "img": "./images/imagesProducts/BMW/bmwX4.webp",
             "model": "BMW"
         },
         {
             "id": 15,
             "name": "X6M",
             "price": "179.900",
-            "img": "./images/imgProducts/ModelosBMW/bmwX6M.jpg",
+            "img": "./images/imagesProducts/BMW/bmwX6M.webp",
             "model": "BMW"
         },
         {"id": 16,
             "name": "718",
             "price": "187.000",
-            "img": "./images/imgProducts/ModelosPORSCHE/porsche-718.webp",
+            "img": "./images/imagesProducts/Porsche/porsche-718.webp",
             "model": "Porsche"
         },
         {
             "id": 17,
             "name": "911",
             "price": "345.000",
-            "img": "./images/imgProducts/ModelosPORSCHE/porsche-911.webp",
+            "img": "./images/imagesProducts/Porsche/porsche-911.webp",
             "model": "Porsche"
         },
         {
             "id": 18,
             "name": "Cayenne",
             "price": "192.600",
-            "img": "./images/imgProducts/ModelosPORSCHE/porsche-cayenne.webp",
+            "img": "./images/imagesProducts/Porsche/porsche-cayenne.webp",
             "model": "Porsche"
         },
         {
             "id": 19,
             "name": "Panamera",
             "price": "328.800",
-            "img": "./images/imgProducts/ModelosPORSCHE/porsche-panamera.webp",
+            "img": "./images/imagesProducts/Porsche/porsche-panamera.webp",
             "model": "Porsche"
         },
         {
             "id": 20,
             "name": "Taycan",
             "price": "324.800",
-            "img": "./images/imgProducts/ModelosPORSCHE/porsche-taycan.webp",
+            "img": "./images/imagesProducts/Porsche/porsche-taycan.webp",
             "model": "Porsche"
         }, {
             "id": 24,
             "name": "Macan",
             "price": "141.700",
-            "img": "./images/imgProducts/ModelosPORSCHE/porsche-macan.webp",
+            "img": "./images/imagesProducts/Porsche/porsche-macan.webp",
             "model": "Porsche"
         }
 ]

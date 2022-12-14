@@ -1,54 +1,160 @@
 header {
-   background-color: transparent;
-   z-index: 999;
-   position: fixed;
-   width: 100%;
-   transition: all 1s;
+   background-color: rgba(46, 46, 150, 0.911);
+   height: auto;
    top: 0;
+   width: 100%;
+   position: fixed;
+   z-index: 999;
+   padding: 10px;
+}
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+   h1 {
+      margin: 10px;
+      font-size: x-large;
+      color: $color-primary;
+   }
    nav {
-      margin: 0 auto;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
       display: flex;
+      flex-direction: column;
       align-items: center;
-      justify-content: space-evenly;
-      padding: 20px;
-      h1 {
-         font-size: 3rem;
-         color: $color-primary;
-         text-transform: uppercase;
-      }
+      justify-content: center;
+      gap: 1.5rem;
+      background-color: rgb(44, 44, 97);
+      transition: 1s;
+      transform: translateY(-100vh);
       ul {
-         display: flex;
+         display: flex; 
+         flex-direction: column;
+         align-items: center;
+         padding: 0; 
+         gap: 30px;
          li {
             list-style: none;
-            margin-left: 2em;
-            font-size: large;
+            font-size: x-large;
+            font-weight: 600;
             .hover {
                color: $color-primary;
                text-transform: uppercase;
                display: inline-block;
                text-decoration: none;
-               font-weight: 600;
             }
-            .hover:after {
+         }
+      }
+      .btn-close {
+         position: absolute;
+         top: 2rem;
+         right: 2rem;
+      }
+   }
+   .btn-nav {
+      color: $color-primary;
+      padding: 10px;
+      background-color: transparent;
+      border: none;
+      font-size: larger;
+      cursor: pointer;
+      outline: none;
+      visibility: visible;
+      opacity: 1;
+   }
+   .responsive-nav {
+      transform: none;
+   }
+}
+
+@media (min-width:992px) {
+   header.active {
+      background-color: rgba(0, 0, 0, 0.521);
+      backdrop-filter: blur(1px);
+   }
+   header {
+      background-color: transparent;
+      transition: all 1s;
+   }
+   .header {
+      margin: 0 auto;
+      justify-content: space-between;
+      align-items: center;
+      h1 {
+         font-size: 2rem;
+         color: $color-primary;
+         text-transform: uppercase;
+         font-weight: 700;
+      }
+      .btn-nav {
+         display: none;
+         visibility: hidden;
+         opacity: 0;
+      }
+      nav {
+         position: initial;
+         top: auto;
+         left: auto;
+         height: auto;
+         width: auto;
+         gap: 1.5rem;
+         background-color: transparent;
+         transition: 1s;
+         transform: none;
+         ul {
+            flex-direction: row;
+            align-items: center;
+            padding: 0; 
+            li {
+               font-size: large;
+               .hover:after {
                   display:block;
                   content: '';
                   border-bottom: solid 3px $color-primary;  
                   transform: scaleX(0);  
                   transition: transform 250ms ease-in-out;
                }
-            .hover:hover:after{
-                  transform: scale(1);
+               .hover:hover:after{
+                     transform: scale(1);
+                  }
+               .hover.active {
+                  display: inline-block;
+                  border-bottom: solid 3px $color-primary;
                }
-            .hover.active {
-               display: inline-block;
-               border-bottom: solid 3px $color-primary;
             }
          }
       }
-   
    }
 }
+
+@media (min-width:1200px) {
+   header {height: auto;}
+   .header {
+      
+      padding: 10px;
+      justify-content:space-between;
+      nav {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-evenly;
+      ul {
+         display: flex;
+         flex-direction: row;
+         li {
+            list-style: none;
+            font-size: large;
+            font-weight: 600;
+         }
+      }
+   }
+   }
 header.active {
    background-color: rgba(0, 0, 0, 0.521);
    backdrop-filter: blur(1px);
+}
 }

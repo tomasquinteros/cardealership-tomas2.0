@@ -1,0 +1,128 @@
+.About {
+   background-image: url('../../../public/images/bg-about2.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   .heroAbout {
+      width: 100%;
+      background-image: linear-gradient(rgba(0, 0,0,0.4), rgba(0, 0,0,0.4)),url(../../../public/images/heroAbout/heroAbout.webp);
+      background-position: center ;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 80vh;
+      text-align: center;
+      margin-bottom: 100px;
+      h1 {
+         font-size: 6rem;
+         color: white;
+         padding-top: 10% ;
+      }
+      p {
+         font-size: 1rem;
+         color:rgb(128, 128, 128);
+         margin-top: 10px;
+      }
+   }
+   .info-about {
+      p {
+         color: rgb(17, 17, 17);
+         font-size: large;
+      }
+      h4 {
+         font-size: xx-large;
+         margin-bottom: 20px;
+      }
+      .company {
+         display: flex;
+         justify-content: space-around;
+         margin-bottom: 150px;
+         align-items: center;
+         .values {
+            width: 50%;
+         }
+         .CEO {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h6 {
+               font-size: 1.2rem;
+               color: #019fb6;
+            }
+            span {
+               font-size: 14px;
+               color: rgb(53, 53, 53);
+               font-weight: 500;
+               margin-bottom: 16px;
+            }
+            img {
+               width: 200px;
+               border-radius: 50%;
+               box-shadow: 0 0 3px black;
+            }
+         }
+      }
+      .generate-about {
+         margin-bottom: 100px;
+         padding: 20px;
+         h5 {
+            font-size: x-large;
+            margin-bottom: 10px;
+         }
+      }
+      .location {
+         padding: 0 20px 100px 20px;
+         .gps {
+            width: 992px;
+            height: 400px;
+         }
+      }
+   }
+}
+
+@media (max-width:576px) {
+   .About {
+      
+      .heroAbout {
+         h1 {
+            padding-top: 40%;
+            font-size: 4rem;
+         }
+         p {
+            color: #019fb6;
+         }
+      }
+   
+   .info-about {
+      .company {
+         flex-direction: column;
+         gap: 40px;
+         .values {
+            max-width: 350px;
+         }
+      }
+      .generate-about {
+         max-width: 350px;
+         margin: 0 auto;
+         padding: 20px;
+      }
+      .location {
+         text-align: center;
+         .gps {
+            width: 300px;
+         }
+      }
+   }
+}
+}
+@media (min-width:577px) {
+   .About {
+      .info-about {
+         .location {
+            text-align: center;
+            .gps {
+               width: 80%;
+            }
+         }
+      }
+   }
+}
