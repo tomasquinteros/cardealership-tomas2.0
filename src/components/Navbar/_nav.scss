@@ -1,5 +1,5 @@
 header {
-   background-color: rgba(46, 46, 150, 0.911);
+   background-color: rgba(70, 208, 218, 0.911);
    height: auto;
    top: 0;
    width: 100%;
@@ -15,7 +15,7 @@ header {
    h1 {
       margin: 10px;
       font-size: x-large;
-      color: $color-primary;
+      color: rgb(235, 235, 235);
    }
    nav {
       position: fixed;
@@ -28,7 +28,7 @@ header {
       align-items: center;
       justify-content: center;
       gap: 1.5rem;
-      background-color: rgb(44, 44, 97);
+      background-color: rgba(70, 208, 218, 0.911);
       transition: 1s;
       transform: translateY(-100vh);
       ul {
@@ -42,7 +42,7 @@ header {
             font-size: x-large;
             font-weight: 600;
             .hover {
-               color: $color-primary;
+               color: rgb(235, 235, 235);
                text-transform: uppercase;
                display: inline-block;
                text-decoration: none;
@@ -56,7 +56,7 @@ header {
       }
    }
    .btn-nav {
-      color: $color-primary;
+      color: rgb(235, 235, 235);
       padding: 10px;
       background-color: transparent;
       border: none;
@@ -111,6 +111,7 @@ header {
             padding: 0; 
             li {
                font-size: large;
+               .hover {color: $color-primary;}
                .hover:after {
                   display:block;
                   content: '';
