@@ -16,7 +16,12 @@ code {
    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
    monospace;
 }
-
+h1 {
+   font-size: 4rem;
+}
+p {
+   font-size: 1.2rem;
+}
 .max-content {
    max-width: 990px;
    margin: 0 auto;
@@ -27,6 +32,23 @@ code {
       margin: 0;
    }
 }
+
+.go-to-top {
+   transition: all 0.5s;
+   position: fixed;
+   background-color: #019fb6;
+   bottom: 0;
+   right: 0;
+   padding: 10px;
+   margin: 20px;
+   font-size: 1.2rem;
+   border: none;
+   color: white;
+   text-align: center;
+   width: 50px;
+}
+
+
 // Components
 @import '../components/Navbar/nav';
 @import '../components/Footer/footer';

@@ -1,5 +1,4 @@
 .models {
-   font-size: 3rem;
    text-align: center;
    padding: 10px;
    width: 100%;
@@ -15,10 +14,12 @@
    .cards {
       display: grid;
       grid-template-columns: 1fr;
+      gap: 10px;
       .card {
          display: flex;
          justify-content: space-between;
          flex-direction: column;
+         height: 400px;
             .title {
                padding: 15px 30px;
                h4 {
@@ -30,11 +31,10 @@
                p {
                   color: white;
                   font-weight: 700;
-                  font-size: 1.3rem;
                }
             }
             .buttons {
-               padding: 80px 40px 40px 40px;
+               padding: 40px;
                display: flex;
                flex-direction: column-reverse;
                align-items: flex-start;
@@ -75,6 +75,7 @@
 @media (min-width:768px) {
    .content {
       .cards {
+         gap: 0px;
          grid-template-columns: 1fr 1fr;
       }
    }
@@ -84,61 +85,12 @@
    .content {
       .cards {
          grid-template-columns: 1fr 1fr 1fr;
-
-      }
-   }
-}
-
-
-/* @media (max-width:768px) {
-   .content {
-      .cards {
-         display: flex;
-         flex-direction: column;
-         gap: 10px;
+         gap: 0px;
          .card {
-            height: 400px;
-            .title {
-               display: flex;
-               align-items: center;
-               justify-content: space-between;
-               gap: 10px;
-               h4 {
-                  width: 200px;
-                  margin-bottom: 0%;
-                  font-size: 2rem;
-               }
-            }
             .buttons {
-               flex-direction: column;
-               align-items: flex-start;
-               gap: 10px;
-               
+               flex-direction: row;
             }
          }
       }
    }
 }
-
-@media (max-width:1200px) {
-   .content {
-      .cards {
-         display: grid;
-         width: auto;
-         grid-template-columns: 1fr 1fr;
-         .card {
-            
-            height: auto;
-            .buttons {
-
-               flex-direction: column;
-               gap: 10px;
-               align-items: flex-start;
-            }
-         }
-      }
-   }
-   
-}
- */
-

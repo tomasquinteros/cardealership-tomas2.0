@@ -18,8 +18,8 @@ const Contact = ()=> {
                </div>
                <div className="form-contact">
                   <form onSubmit={handleSubmit((data) => console.log(data))}>
-                     <ul>
-                        <li>
+                     <div>
+                        <div>
                            <input  
                            {...register("Name", {
                               required:"Username is required",
@@ -29,8 +29,8 @@ const Contact = ()=> {
                            placeholder="Name"
                            />
                            <span>{errors.Name?.message}</span>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                            <input  {...register("email", {
                               required: "Email is required",
                               pattern: {
@@ -40,8 +40,8 @@ const Contact = ()=> {
                            })} 
                            type="email" placeholder="Email"/>
                            <span>{errors.email?.message}</span>
-                        </li>
-                     </ul>
+                        </div>
+                     </div>
                      <textarea {...register("textArea", {
                         required:"Message is required",
                         message:"Your comment is empty, write something to be able to send"

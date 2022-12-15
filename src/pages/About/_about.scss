@@ -12,12 +12,10 @@
       text-align: center;
       margin-bottom: 100px;
       h1 {
-         font-size: 6rem;
          color: white;
          padding-top: 10% ;
       }
       p {
-         font-size: 1rem;
          color:rgb(128, 128, 128);
          margin-top: 10px;
       }
@@ -25,7 +23,6 @@
    .info-about {
       p {
          color: rgb(17, 17, 17);
-         font-size: large;
       }
       h4 {
          font-size: xx-large;
@@ -81,11 +78,9 @@
 
 @media (max-width:576px) {
    .About {
-      
       .heroAbout {
          h1 {
             padding-top: 40%;
-            font-size: 4rem;
          }
          p {
             color: #019fb6;
@@ -93,22 +88,23 @@
       }
    
    .info-about {
+      padding: 20px;
       .company {
          flex-direction: column;
          gap: 40px;
          .values {
-            max-width: 350px;
+            width: 100%;
          }
       }
       .generate-about {
-         max-width: 350px;
+         width: 100%;
          margin: 0 auto;
-         padding: 20px;
+         padding: 0;
       }
       .location {
-         text-align: center;
+         padding: 100px 0;
          .gps {
-            width: 300px;
+            width: 100%;
          }
       }
    }

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+
 footer {
    padding: 20px;
    background-color: #ccc;
@@ -30,6 +31,7 @@ footer {
    }
    ul {
       display: flex;
+      flex-direction: row;
       justify-content: space-between;
       li {
          list-style: none;
@@ -42,5 +44,13 @@ footer {
    p {
       color: #019eb693;
       padding: 20px;
+   }
+}
+
+@media (max-width: 576px) {
+   footer {
+      ul {
+         flex-direction: column;
+      }
    }
 }
