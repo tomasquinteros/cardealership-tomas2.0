@@ -20,8 +20,8 @@
          justify-content: space-between;
          flex-direction: column;
          height: 400px;
+         padding: 20px;
             .title {
-               padding: 15px 30px;
                h4 {
                   color: white;
                   font-size: 1.8rem;
@@ -34,7 +34,6 @@
                }
             }
             .buttons {
-               padding: 40px;
                display: flex;
                flex-direction: column-reverse;
                align-items: flex-start;
