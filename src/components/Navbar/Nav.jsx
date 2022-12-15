@@ -1,4 +1,4 @@
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useState, useRef } from "react";
 import {FaBars, FaTimes} from 'react-icons/fa';
 
