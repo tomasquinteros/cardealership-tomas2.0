@@ -24,6 +24,7 @@ const ScrollToTop = () => {
     }, [pathname]);
   }
 
+
 function App() {
   return (
     <div className="App">

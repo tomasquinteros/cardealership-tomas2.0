@@ -1,8 +1,9 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { useState, useRef } from "react";
 import {FaBars, FaTimes} from 'react-icons/fa';
 
 const Nav = () => {
+  const {pathname} = useLocation('');
   const [navbar, setNavbar] = useState(false);
   const changeBackground = () => {
     if (window.scrollY >= 80) {
@@ -15,8 +16,9 @@ const Nav = () => {
 
   const navRef = useRef();
   const showNavbar = () => {
-    navRef.current.classList.toggle("responsive-nav");
+      navRef.current.classList.toggle("responsive-nav");
   }
+
   return (
     <header className={navbar ? "active" : ""}>
       <div className="header max-content">
@@ -24,19 +26,19 @@ const Nav = () => {
         <nav ref={navRef}>
           <ul>
             <li>
-              <NavLink className={({ isActive }) =>isActive ? "hover active" : "hover"}
+              <NavLink onClick={showNavbar} className={({ isActive }) =>isActive ? "hover active" : "hover"}
                 to="/">HOME</NavLink>
             </li>
             <li>
-              <NavLink className={({ isActive }) => isActive ? "hover active" : "hover"}
+              <NavLink onClick={showNavbar} className={({ isActive }) => isActive ? "hover active" : "hover"}
                 to="/products">CARS</NavLink>
             </li>
             <li>
-              <NavLink className={({ isActive }) => isActive ? "hover active" : "hover"}
+              <NavLink onClick={showNavbar} className={({ isActive }) => isActive ? "hover active" : "hover"}
                 to="/about">ABOUT</NavLink>
             </li>
             <li>
-              <NavLink className={({ isActive }) => isActive ? "hover active" : "hover"}
+              <NavLink onClick={showNavbar} className={({ isActive }) => isActive ? "hover active" : "hover"}
                 to="/contact">CONTACT</NavLink>
             </li>
             <li>
