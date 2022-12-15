@@ -3,7 +3,6 @@ import { useState, useRef } from "react";
 import {FaBars, FaTimes} from 'react-icons/fa';
 
 const Nav = () => {
-  const {pathname} = useLocation('');
   const [navbar, setNavbar] = useState(false);
   const changeBackground = () => {
     if (window.scrollY >= 80) {
