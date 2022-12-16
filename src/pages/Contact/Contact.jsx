@@ -1,12 +1,18 @@
+import { useState } from "react"
 import { useForm } from "react-hook-form"
-
-
+import { ModalSend } from "../../props/ModalSend"
+import {setView} from '../../props/ModalSend'
 const Contact = ()=> {
+   
    const {register, formState: {errors} ,handleSubmit} = useForm()
-
-
+   
+   const [viewModal, setViewModal] = useState(false);
    return (
       <main className="Contact">
+         {viewModal && 
+            <ModalSend viewModal={viewModal}/>
+         }
+
          <div className="max-content contacto">
             <h1>Contact Me</h1>
             <section className="contacts">
@@ -48,7 +54,7 @@ const Contact = ()=> {
                      })} cols="30" rows="10" placeholder="Enter the message you want send"
                      />
                      <span>{errors.textArea?.message}</span>
-                     <input type="submit" value="Send"/>
+                     <input onClick={() => {setViewModal(!viewModal)}} type="submit" value="Send"/>
                   </form>
                </div>
             </section>
