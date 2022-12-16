@@ -30,7 +30,7 @@ const Nav = () => {
             </li>
             <li>
               <NavLink onClick={showNavbar} className={({ isActive }) => isActive ? "hover active" : "hover"}
-                to="/products">CARS</NavLink>
+                to="/products">MODELS</NavLink>
             </li>
             <li>
               <NavLink onClick={showNavbar} className={({ isActive }) => isActive ? "hover active" : "hover"}
