@@ -25,7 +25,7 @@ const arrayModel = () => {
 };
 arrayModel();
 
-const Products = ()=>{
+const Models = ()=>{
    return (
       <div>
          <Carousel hero={Hero} class="hero_products"/>
@@ -38,4 +38,4 @@ const Products = ()=>{
    )
 }
 
-export {Products}
+export {Models}

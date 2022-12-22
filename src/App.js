@@ -9,7 +9,7 @@ import {GoToTop} from './components/GoToTop'
 
 // Import Pages
 import { Home } from "./pages/Home/Home";
-import { Products } from "./pages/Products/Products";
+import {Models} from "./pages/Products/Models"
 import { About } from "./pages/About/About";
 import { Contact } from "./pages/Contact/Contact";
 // Create function to leave page up
@@ -34,7 +34,7 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/models" element={<Products />} />
+          <Route path="/models" element={<Models />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

@@ -23,7 +23,7 @@ return (
                      <p>USD {price}</p>
                   </div>
                   <div className="buttons">
-                     <a href="www.mercedes-benz.com" className="btns btn-config">
+                     <a href="/products/" className="btns btn-config">
                         <FaExternalLinkAlt />
                         <span>Configure</span>
                      </a>

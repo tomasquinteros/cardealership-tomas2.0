@@ -1,15 +1,21 @@
 import { useState } from "react"
 import { useForm } from "react-hook-form"
 import { ModalSend } from "../../props/ModalSend"
-import {setView} from '../../props/ModalSend'
 const Contact = ()=> {
    
    const {register, formState: {errors} ,handleSubmit} = useForm()
-   
    const [viewModal, setViewModal] = useState(false);
+   const completed = () => {
+      if (errors.Name?.message || errors.email?.message || errors.textArea?.message) {
+         return false
+      } else {
+         return true
+      }
+   }
+
    return (
       <main className="Contact">
-         {viewModal && 
+         {viewModal & completed() && 
             <ModalSend viewModal={viewModal}/>
          }
 
