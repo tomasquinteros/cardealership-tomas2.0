@@ -1,0 +1,140 @@
+
+.Contact {
+   background-image: url('../../../../public/images/bg-Contact3.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 20vh;
+}
+.contacto {
+   background-color: #ccc;
+   padding: 5vw;
+   h1 {
+      color: rgba(0, 0, 0, 0.712);
+      font-size: 3rem;
+   }
+   .contacts {
+      display: flex;
+      gap: 50px;
+      .fast-contact {
+         width: 40%;
+         h4 {
+            font-size: 1.4rem;
+            font-weight: 500;
+            margin-bottom: 15px;
+         }
+         p {
+            font-weight: 600;
+            &:last-child {
+               font-weight: 400;
+               color: rgb(27, 27, 27);
+            }
+         }
+      }
+      span {
+         color: red;
+         font-size: small;
+         display: block;
+      }
+      .form-contact {
+         display: flex;
+         flex-direction: column;
+         width: 60%;
+         input[type="text"], input[type="email"] , textarea {
+               border: 0.2rem solid transparent;
+               transition: cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+               font-family: "Poppins", sans-serif;
+               
+               &::placeholder {
+                  font-size: large;
+               }
+               &:focus {
+                  outline: none;
+                  border-color: $color-primary;
+               }
+         }
+         div {
+            display: flex;
+            margin-bottom: 20px;
+            div {
+               display: flex;
+               flex-direction: column;
+               list-style: none;
+               margin-right: 5px;
+               input {
+                  padding: 10px 5px;
+                  max-width: 80%;
+               }
+            }
+         }
+         textarea {
+            width: 100%;
+            padding: 5px;
+         }
+         input[type="submit"] {
+            padding: 10px 20px;
+            font-size: medium;
+            color: rgb(27, 27, 27);
+            transition: all 0.3s;
+            border: 0.2rem solid transparent;
+            font-weight: 600;
+            color: rgb(66, 66, 66);
+            &:hover {
+               background-color: $color-primary;
+            }
+         }
+      }
+   }
+}
+
+@media (max-width:1200px) {
+   .Contact {
+      padding: 20vh 3vh;
+   .contacto {
+      h1 {
+         margin-bottom: 40px;
+         text-align: center;
+      }
+      .contacts {
+         flex-direction: column-reverse;
+         .fast-contact {
+            width: 100%;
+            h4 {
+               font-size: 3rem;
+            }
+         }
+         .form-contact {
+            width: 100%;
+            div {
+               flex-direction: column;
+               gap: 20px;
+                  div {
+                     input {
+                        width: 100%;
+                     }
+                  } 
+               }
+            }
+         }
+      }
+   }
+}
+
+@media (max-width: 992px) {
+   .Contact {
+      padding: 20vh 3vh;
+      .contacto {
+         padding: 1vh;
+         .form-contact {
+            max-width: 100%;
+            padding: 20px;
+         }
+         .fast-contact {
+            max-width: 100%;
+            padding: 20px;
+            h4 {
+               font-size: 1.9rem;
+            }
+         }
+      }
+   }
+}

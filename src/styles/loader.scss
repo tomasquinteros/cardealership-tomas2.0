@@ -1,0 +1,36 @@
+
+.loader {
+  padding: 20px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+   margin-top: 150px;
+   height: 100%;
+   gap: 5vh;
+   h1 {
+      font-size: 3rem;
+      color: #019fb6;
+      font-weight: bold;
+   }
+   p {
+      margin-bottom: 100px;
+   }
+}
+
+@keyframes App-logo-spin {
+   from {
+     transform: rotate(0deg);
+   }
+   to {
+     transform: rotate(360deg);
+   }
+ }
+
+ @media (prefers-reduced-motion: no-preference) {
+   .App-logo {
+     animation: App-logo-spin infinite 20s linear;
+     width: 400px;
+     margin: 0 auto;
+   }
+ }

@@ -50,15 +50,17 @@ p {
 
 
 // Components
-@import '../components/Navbar/nav';
-@import '../components/Footer/footer';
+@import '../components/Layout/Navbar/nav';
+@import '../components/Layout/Footer/footer';
 
 // Pages
-@import '../pages/Home/home.scss';
-@import '../pages/Products/product';
-@import '../pages/About/about';
-@import '../pages/Contact/contact';
+@import '../components/Pages/Home/home.scss';
+@import '../components/Pages/Product/product';
+@import '../components/Pages/About/about';
+@import '../components/Pages/Contact/contact';
 // Props 
-@import '../props/carousel.scss';
-@import '../props/overlay.scss';
+@import 'carousel.scss';
+@import 'overlay.scss';
+@import 'loader.scss';
+@import 'error404.scss'
 //Screens

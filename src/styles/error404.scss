@@ -1,0 +1,31 @@
+
+.Error404 {
+   padding: 20px;
+   max-width: 1200px;
+   display: flex;
+   margin: 0 auto;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   h1 {
+      margin-top: 200px;
+   }
+   button {
+      margin-bottom: 200px;
+      background-color: #019fb6;
+      border: #019fb6 1px solid;
+      padding: 10px 20px;
+      transition: all 0.2s;
+      a {
+         color: black;
+         text-decoration: none;
+         font-weight: 600;
+         font-size: x-large;
+      }
+      &:hover {
+         background-color: #019eb670;
+         border: 1px solid #019fb6;
+      }
+   }
+}
