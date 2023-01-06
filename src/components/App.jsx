@@ -12,7 +12,7 @@ import { Home } from "../components/Pages/Home/Home";
 import {Models} from "../components/Pages/Product/Models"
 import { About } from "../components/Pages/About/About";
 import { Contact } from "../components/Pages/Contact/Contact";
-import {Description} from "./Pages/Product/components_products/Description"
+import {Description} from "./Pages/Product/components_products/description/Description"
 
 // Create function to leave page up
 const ScrollToTop = () => {

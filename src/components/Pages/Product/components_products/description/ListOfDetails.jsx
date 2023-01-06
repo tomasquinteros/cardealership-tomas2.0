@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Loader } from '../../../Layout/Loader';
+import { Loader } from '../../../../Layout/Loader';
 import { DescriptionContainer } from "./DescriptionContainer";
 
 const ListOfDetails = ({ car, arrayDetails }) => {

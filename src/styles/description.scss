@@ -1,0 +1,92 @@
+.description {
+   background-image: url('../components/Pages/Product/components_products/assets/bg-Description2.png');
+   .container {
+      max-width: 1200px;
+      padding: 150px 0 100px 0;
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      .img-container {
+         max-width: 50%;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-evenly;
+         align-items: center;
+         gap: 20px;
+         .big-img {
+            aspect-ratio: 4/3;
+            object-fit: cover;
+            max-width: 100%;
+         }
+         .thumbnail-img {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 5px;
+            .img {
+               width: 100%;
+               opacity: 0.7;
+               cursor: pointer;
+               border: 2px solid rgba($color: #000000, $alpha: 0);
+            }
+            .img.active {
+               opacity: 1;
+               border: 2px solid #019fb6;
+            }
+         }
+      }
+      .description-details {
+         text-align: center;
+         display: flex;
+         flex-direction: column;
+         gap: 40px;
+         p {
+            color: rgb(31, 31, 31);
+         }
+         .details {
+            h2 {
+               font-size: 40px;
+               border-bottom: #019fb6 solid 1px;
+               color: #019fb6 ;
+            }
+            text-align: start;
+            ul {
+               padding: 30px 0;
+               list-style: none;
+               display: grid;
+               gap: 10px;
+               border-bottom: #019fb6 solid 1px;
+               li {
+                  .title {
+                     font-weight: 500;
+                     color: rgb(17, 17, 17);
+                  }
+                  color: rgb(31, 31, 31);
+                  font-size: x-large;
+                  border: 1px solid gra;
+               }
+            }
+            .price {
+               border: none;
+               padding-top: 20px;
+               color: black;
+            }
+         }
+      }
+   }
+}
+
+@media (max-width:768px) {
+   .description {
+      padding: 20px;
+      .container {
+         flex-direction: column;
+         .img-container {
+            max-width: 100%;
+            .big-img {
+               image-rendering: smooth;
+               width: 100%;
+            }
+         }
+      }
+   }
+}

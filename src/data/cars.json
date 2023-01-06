@@ -53,7 +53,7 @@
         "id": 7,
         "model": "C300",
         "price": "84.000",
-        "img": ["../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-2.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-3.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-INTERIOR1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-INTERIOR2.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-INTRIOR3.jpg"],
+        "img": ["../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-2.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-3.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-INTERIOR1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-INTERIOR2.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-INTERIOR3.jpg"],
         "make": "Mercedes Benz",
         "serie": "Clase C"
         
@@ -63,7 +63,7 @@
         "id": 8,
         "model": "E350",
         "price": "54.950",
-        "img": ["../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-2.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-3.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-4.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-INTERIOR1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-INTEIOR2.jpg"],
+        "img": ["../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-2.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-3.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-4.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-INTERIOR1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-INTERIOR2.jpg"],
         "make": "Mercedes Benz",
         "serie": "Clase E"
         
@@ -73,7 +73,7 @@
         "id": 9,
         "model": "S560",
         "price": "170.790",
-        "img": ["../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-2.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-3.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-4.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-INTERIOR1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-INTERIOR2.jpg"],
+        "img": ["../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-2.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-3.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-INTERIOR1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-INTERIOR2.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-INTERIOR3.jpg"],
         "make": "Mercedes Benz",
         "serie": "Clase S"
         
@@ -96,7 +96,7 @@
         "serie": "Clase G"
     },{
         "id": 12,
-        "model": "GLC 300",
+        "model": "GLC300",
         "price": "96.500",
         "img": ["../../../images/imagesProducts/MERCEDES-BENZ/GLC300/GLC300-1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/GLC300/GLC300-2.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/GLC300/GLC300-3.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/GLC300/GLC300-4.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/GLC300/GLC300-INTERIOR1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/GLC300/GLC300-INTERIOR2.jpg"],
         "make": "Mercedes Benz",

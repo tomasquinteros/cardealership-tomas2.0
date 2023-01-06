@@ -1,24 +1,24 @@
 import { useState } from "react"
 import { useForm } from "react-hook-form"
 import { ModalSend } from "./ModalSend"
+
 const Contact = ()=> {
    
    const {register, formState: {errors} ,handleSubmit} = useForm()
    const [viewModal, setViewModal] = useState(false);
-   const completed = () => {
+   function completed (){
       if (errors.Name?.message || errors.email?.message || errors.textArea?.message) {
          return false
       } else {
          return true
       }
    }
-
    return (
       <main className="Contact">
-         {viewModal & completed() && 
-            <ModalSend viewModal={viewModal}/>
+         {
+            viewModal & completed() ? 
+            <ModalSend viewModal={viewModal}/> :  console.log("Loading click submit ")
          }
-
          <div className="max-content contacto">
             <h1>Contact Me</h1>
             <section className="contacts">
@@ -31,7 +31,7 @@ const Contact = ()=> {
                <div className="form-contact">
                   <form onSubmit={handleSubmit((data) => console.log(data))}>
                      <div>
-                        <div>
+                        <div style={{margin: "0px"}}>
                            <input  
                            {...register("Name", {
                               required:"Username is required",
@@ -42,7 +42,7 @@ const Contact = ()=> {
                            />
                            <span>{errors.Name?.message}</span>
                         </div>
-                        <div>
+                        <div style={{margin: "0px"}}>
                            <input  {...register("email", {
                               required: "Email is required",
                               pattern: {

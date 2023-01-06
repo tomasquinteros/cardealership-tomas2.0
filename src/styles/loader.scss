@@ -30,7 +30,7 @@
  @media (prefers-reduced-motion: no-preference) {
    .App-logo {
      animation: App-logo-spin infinite 20s linear;
-     width: 400px;
+     max-width: 400px;
      margin: 0 auto;
    }
  }

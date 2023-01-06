@@ -10,8 +10,7 @@
    align-items: center;
    
    .modal {
-      animation: popup 1s;
-      width: 400px;
+      max-width: 80%;
       background-color: #e7e7e7;
       box-shadow: 0 0 15px rgb(75, 75, 75);
       text-align: center;
@@ -37,14 +36,11 @@
       }
    }
 }
-@keyframes popup {
-      10% {
-         transform: scale(1);
-      }
-      50%{
-      transform: scale(1.2);
-      }
-      100%{
-      transform: scale(1);
-      }
+
+@media (max-width: 1024px) {
+   .modal {
+      padding: 20px;
+      width: 80%;
+      margin-top: 100px;
    }
+}

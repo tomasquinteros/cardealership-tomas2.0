@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom"
-import cars from '../../../../data/cars.json'
-import { DataApi } from '../../../../data/dataApi';
-import { ListOfDetails } from '../components_products/ListOfDetails';
-import { Error404 } from "../../../Layout/Error404";
+import cars from '../../../../../data/cars.json'
+import { DataApi } from '../../../../../data/dataApi';
+import { ListOfDetails } from './ListOfDetails';
+import { Error404 } from "../../../../Layout/Error404";
 
 const Description = () => {
    const {model} = useParams();
