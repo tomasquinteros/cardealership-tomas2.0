@@ -11,7 +11,7 @@ const Description = () => {
    const [error, setError] = useState(true);
    
    useEffect(() => {
-      setCar(cars.find(car => car.model == model))
+      setCar(cars.find(car => car.model === model))
       if (car) {
          setError(false)
       }
