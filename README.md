@@ -10,11 +10,11 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-
+<div align="center">
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
+</div>
 
 
 <!-- PROJECT LOGO -->
