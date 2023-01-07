@@ -21,7 +21,7 @@ const Nav = () => {
   return (
     <header className={navbar ? "active" : ""}>
       <div className="header max-content">
-        <h1>Car Dealership</h1>
+        <NavLink to="/">Car Dealership</NavLink>
         <nav ref={navRef}>
           <ul>
             <li>
