@@ -19,7 +19,7 @@
 <br />
 <div align="center">
   <a href="https://cardealership-tquin.netlify.app/">
-    <img src="public/images/readme-images/logo.png" alt="Logo" width="300" height="300">
+    <img src="public/images/readme-images/logo.png" alt="Logo" width="400">
   </a>
 
   <h3 align="center">CAR DEALERSHIP APP</h3>
