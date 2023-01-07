@@ -239,4 +239,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [JQuery-url]: https://jquery.com 
 
 [SASS.com]: https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white
-[SSASS-url]: https://sass-lang.com/
+[SASS-url]: https://sass-lang.com/
