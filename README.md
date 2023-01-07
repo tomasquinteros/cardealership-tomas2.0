@@ -10,18 +10,16 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
+
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://cardealership-tquin.netlify.app/">
-    <img src="images/readme-images/logo.png" alt="Logo" width="80" height="80">
+    <img src="public/images/readme-images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Car Dealership App</h3>
@@ -195,7 +193,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-url]: https://github.com/tomasquinteros/cardealership-tomas2.0/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/tom%C3%A1s-quinteros-495a81252/
-[product-screenshot]: images/screenshot-page.png
+[product-screenshot]: public/images/readme-images/screenshot-page.png
 
 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
