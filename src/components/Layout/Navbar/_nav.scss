@@ -85,6 +85,7 @@ header {
       justify-content: space-between;
       align-items: center;
       .logo {
+         text-decoration: none;
          font-size: 2rem;
          color: $color-primary;
          text-transform: uppercase;
