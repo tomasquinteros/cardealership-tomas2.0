@@ -1,7 +1,6 @@
 import "../styles/styles.scss";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
-
 // Import components
 import { Nav } from "../components/Layout/Navbar/Nav";
 import { Footer } from "../components/Layout/Footer/Footer";
