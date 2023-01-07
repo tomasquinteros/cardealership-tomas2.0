@@ -4,7 +4,7 @@ const Button = ({model, make}) => {
    
    return (
       <>
-         <Link to={`/models/${make}/description/${model}`} className="btns btn-description">
+         <Link to={`/models/${model}`} className="btns btn-description">
             <FaAngleRight />
             <span>General description</span>
          </Link>

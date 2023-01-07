@@ -38,7 +38,7 @@ function App() {
           <Route path="/models" element={<Models />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/models/:make/description/:model" element={<Description/>}/>
+          <Route path="/models/:model" element={<Description/>}/>
           <Route/>
         </Routes>
       </BrowserRouter>
