@@ -80,7 +80,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <br>
    <div align="center">
       <a href="https://cardealership-tquin.netlify.app/">
-    <img src="images/readme-images/logo.png" alt="Logo">
+    <img src="../images/readme-images/logo.png" alt="Logo">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
