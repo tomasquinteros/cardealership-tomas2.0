@@ -12,7 +12,7 @@ header {
    justify-content: space-between;
    align-items: center;
    margin: 0 auto;
-   h1 {
+   .logo {
       margin: 10px;
       font-size: x-large;
       color: rgb(235, 235, 235);
@@ -84,7 +84,7 @@ header {
       margin: 0 auto;
       justify-content: space-between;
       align-items: center;
-      h1 {
+      .logo {
          font-size: 2rem;
          color: $color-primary;
          text-transform: uppercase;
