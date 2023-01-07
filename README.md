@@ -72,7 +72,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://cardealership-tquin.netlify.app/)
 
-This app was made for a project delivery of the Frontend Professional course done at the National Technological University. Where they asked us to create an app that works, calling api's and json.
+This app was made for a project delivery of the Frontend Professional course done at the Universidad Nacional Tecnologica. Where they asked us to create an app that works, calling api's and json.
 
 In this course we started with HTML and CSS in which they taught us the basics of how to create a web page in which we also had to make a delivery. Attached link of page and github:
 Link page: <a href="https://tomasquinteros.github.io/"></a>
@@ -207,4 +207,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [JQuery-url]: https://jquery.com 
 
 [SASS.com]: https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white
-[SSASS-url]: https://sass-lang.com/
+[SASS-url]: https://sass-lang.com/
