@@ -16,18 +16,11 @@ const ListOfDetails = ({ car, arrayDetails }) => {
   }, [arrayDetails, details]);
 
   if (loading) {
-     return <Loader/>
-   } else {
+    return <Loader/>
+  } else {
       return (<DescriptionContainer details={details[0]} car={car}/>);
 
   }
 };
 
 export { ListOfDetails };
-
-   
-   /* useEffect(() => {
-    if (Array.isArray(details)) {
-       setLoading(false)
-     }
-   }, [setLoading, details]) */

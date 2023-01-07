@@ -16,6 +16,7 @@ header {
       margin: 10px;
       font-size: x-large;
       color: rgb(235, 235, 235);
+      text-decoration: none;
    }
    nav {
       position: fixed;
@@ -136,7 +137,6 @@ header {
 @media (min-width:1200px) {
    header {height: auto;}
    .header {
-      
       padding: 10px;
       justify-content:space-between;
       nav {
