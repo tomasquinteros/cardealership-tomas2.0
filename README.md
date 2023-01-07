@@ -74,7 +74,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://cardealership-tquin.netlify.app/)
+[![Screen Web][product-screenshot]](https://cardealership-tquin.netlify.app/)
 
 This app was made for a project delivery of the Frontend Professional course done at the National Technological University. Where they asked us to create an app that works, calling api's and json.
 
@@ -225,7 +225,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-url]: https://github.com/tomasquinteros/cardealership-tomas2.0/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/tom%C3%A1s-quinteros-495a81252/
-[product-screenshot]: images/screenshot-page.png
+[product-screenshot]: /public/images/readme-images/screenshot-page.png
 
 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
