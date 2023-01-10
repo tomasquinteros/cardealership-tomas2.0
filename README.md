@@ -72,8 +72,8 @@
 This app was made for a project delivery of the Frontend Professional course done at the Universidad Nacional Tecnologica. Where they asked us to create an app that works, calling api's and json.
 
 In this course we started with HTML and CSS in which they taught us the basics of how to create a web page in which we also had to make a delivery. Attached link of page and github:
-Link page: <a href="https://tomasquinteros.github.io/"></a>
-Link github: <a href="https://github.com/tomasquinteros/tomasquinteros.github.io"></a>
+<p>Link page: <a href="https://tomasquinteros.github.io/"></a></p>
+<p>Link github: <a href="https://github.com/tomasquinteros/tomasquinteros.github.io"></a></p>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
