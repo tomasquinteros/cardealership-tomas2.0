@@ -1,14 +1,7 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <a name="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 
 
 [![Stargazers][stars-shield]][stars-url]
@@ -18,7 +11,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://cardealership-tquin.netlify.app/">
+  <a href="https://cardealership-tomasquinteros.netlify.app/">
     <img src="public/images/readme-images/logo.png" alt="Logo" width="400">
   </a>
 
@@ -29,7 +22,7 @@
     <a href="https://github.com/tomasquinteros/cardealership-tomas2.0"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://cardealership-tquin.netlify.app/">View Demo</a>
+    <a href="https://cardealership-tomasquinteros.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/tomasquinteros/cardealership-tomas2.0/issues">Report Bug</a>
     ·
@@ -67,7 +60,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://cardealership-tquin.netlify.app/)
+[![Product Name Screen Shot][product-screenshot]](https://cardealership-tomasquinteros.netlify.app/)
 
 This app was made for a project delivery of the Frontend Professional course done at the Universidad Nacional Tecnologica. Where they asked us to create an app that works, calling api's and json.
 
@@ -193,7 +186,7 @@ Some links of things that I have used in the project and I would like to thank.
 
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
+<!-- LINKS & IMAGES -->
 [stars-shield]: https://img.shields.io/github/stars/tomasquinteros/cardealership-tomas2.0.svg?style=for-the-badge
 [stars-url]: https://github.com/tomasquinteros/cardealership-tomas2.0/stargazers
 [issues-shield]: https://img.shields.io/github/issues/tomasquinteros/cardealership-tomas2.0.svg?style=for-the-badge
