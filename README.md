@@ -113,7 +113,7 @@ _After installing npm._
    ```
 3. Copy the example env file to enter your api key `.env`
    ```bash
-  cp .env.example .env
+   cp .env.example .env
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
