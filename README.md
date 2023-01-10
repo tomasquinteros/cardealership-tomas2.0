@@ -140,6 +140,7 @@ The breakpoints used to create the responsive design:
   * [Breakpoints - Bootstrap](https://getbootstrap.com/docs/5.3/layout/breakpoints/)
 
   ### Screenshots 
+  <div align="center">
   <h3>Mobile</h3> 
 
   <img src="public/images/readme-images/Mobile.png" alt="screen-mobile">
