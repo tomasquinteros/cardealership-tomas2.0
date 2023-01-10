@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom"
 import cars from '../../../../../data/cars.json'
-import { DataApi } from '../../../../../data/dataApi';
+import { DataApi } from '../../../../../data/DataApi';
 import { ListOfDetails } from './ListOfDetails';
 import { Error404 } from "../../../../Layout/Error404";
 
