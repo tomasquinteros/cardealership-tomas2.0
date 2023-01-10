@@ -151,7 +151,7 @@ The breakpoints used to create the responsive design:
 
   <h3>Laptop</h3>
 
-  <img srec="public/images/readme-images/Laptop.png" alt="screen-laptop">
+  <img src="public/images/readme-images/Laptop.png" alt="screen-laptop">
 
   <h3>Desktop</h3>
 
