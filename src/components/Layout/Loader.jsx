@@ -1,5 +1,5 @@
 import logo from './logo.svg'
-import '../../styles/loader.scss'
+import '../../styles/Loader-Error404.scss'
 const Loader = () =>{
    return (
       <div className="loader">

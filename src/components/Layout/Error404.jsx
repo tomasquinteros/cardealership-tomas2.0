@@ -1,4 +1,4 @@
-import '../../styles/error404.scss'
+import '../../styles/Loader-Error404.scss'
 import { Link } from 'react-router-dom'
 const Error404 = ()=>{
    return (

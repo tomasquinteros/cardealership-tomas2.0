@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import '../../../../../styles/description.scss'
+import './description.scss'
 
 const DescriptionContainer = ({details, car}) => {
    const {cylinders, displacement, drive, fuel_type, transmission, city_mpg, highway_mpg} = details
