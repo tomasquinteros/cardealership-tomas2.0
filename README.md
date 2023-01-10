@@ -111,7 +111,7 @@ _After installing npm._
    ```sh
    npm install
    ```
-3. Enter your API in `.env`
+3. Enter your CAR API in `.env`
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
