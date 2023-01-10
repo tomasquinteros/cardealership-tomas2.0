@@ -139,7 +139,7 @@ The breakpoints used to create the responsive design:
 
   * [Breakpoints - Bootstrap](https://getbootstrap.com/docs/5.3/layout/breakpoints/)
 
-  ### Screenshots 
+  * ### Screenshots 
   <div align="center">
   <h3>Mobile</h3> 
 
@@ -158,7 +158,7 @@ The breakpoints used to create the responsive design:
   <img src="public/images/readme-images/Desktop.png" alt="screen-desktop">
   </div>
   
-  ### What's more...
+  * ### What's more...
 
 
   The website was created with custom data from a json as well as data from a car API in which we pass the model of the car and it looks for its details.
@@ -174,7 +174,7 @@ The breakpoints used to create the responsive design:
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@said_quinteros](https://twitter.com/said_quinteros) - email@example.com
+Tomás Said Quinteros - [@said_quinteros](https://twitter.com/said_quinteros) - tomassaidquinteros@gmail.com
 
 Project Link: [CAR DEALERSHIP](https://github.com/tomasquinteros/cardealership-tomas2.0)
 
@@ -185,7 +185,7 @@ Project Link: [CAR DEALERSHIP](https://github.com/tomasquinteros/cardealership-t
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Some links of things that I have used in the project and I would like to thank.
 
 
 * [Img Shields](https://shields.io)
