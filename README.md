@@ -133,18 +133,45 @@ _After installing npm._
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This project has been created and adapted for different screen sizes: mobile, tablet, desktop smaller and large.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+The breakpoints used to create the responsive design:
+
+  * [Breakpoints - Bootstrap](https://getbootstrap.com/docs/5.3/layout/breakpoints/)
+
+  ### Screenshots 
+  <div align="center">
+    #### Mobile 
+    <img src="public/images/readme-images/Mobile.png" alt="screen-mobile">
+
+    #### Tablet 
+    <img src="public/images/readme-images/Tablet.png" alt="screen-tablet">
+
+    #### Laptop
+    <img srec="public/images/readme-images/Laptop.png" alt="screen-laptop">
+
+    #### Desktop
+    <img src="public/images/readme-images/Desktop.png" alt="screen-desktop">
+  </div>
+### What's more...
+
+
+The website was created with custom data from a json as well as data from a car API in which we pass the model of the car and it looks for its details.
+
+<img align="center" src="public/images/readme-images/code-APIcall.png" alt="screen-codeAPIcall">
+
+Also, a 404 page was created and is used when the path description is modified with a model that does not exist.
+
+<img align="center" src="public/images/readme-images/404-Mobile.png" alt="error404">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Your Name - [@said_quinteros](https://twitter.com/said_quinteros) - email@example.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [CAR DEALERSHIP](https://github.com/tomasquinteros/cardealership-tomas2.0)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,8 +184,9 @@ Use this space to list resources you find helpful and would like to give credit 
 
 
 * [Img Shields](https://shields.io)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-* []
+* [React Icons](https://react-icons.github.io/react-icons/)
+* [API Ninjas](https://api-ninjas.com/api/cars)
+* [React Slick - Carousel](https://react-slick.neostack.com/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
