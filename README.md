@@ -111,7 +111,7 @@ _After installing npm._
    ```sh
    npm install
    ```
-3. Copy the example env file to enter your api key `.env`
+3. Copy the example env file to enter your api key `.env` file
    ```bash
    cp .env.example .env
    ```
