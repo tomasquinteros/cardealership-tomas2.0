@@ -153,18 +153,19 @@ The breakpoints used to create the responsive design:
     #### Desktop
     <img src="public/images/readme-images/Desktop.png" alt="screen-desktop">
   </div>
-### What's more...
+  
+  ### What's more...
 
 
-The website was created with custom data from a json as well as data from a car API in which we pass the model of the car and it looks for its details.
+  The website was created with custom data from a json as well as data from a car API in which we pass the model of the car and it looks for its details.
 
-<img align="center" src="public/images/readme-images/code-APIcall.png" alt="screen-codeAPIcall">
+  <img align="center" src="public/images/readme-images/code-APIcall.png" alt="screen-codeAPIcall">
 
-Also, a 404 page was created and is used when the path description is modified with a model that does not exist.
+  Also, a 404 page was created and is used when the path description is modified with a model that does not exist.
 
-<img align="center" src="public/images/readme-images/404-Mobile.png" alt="error404">
+  <img align="center" src="public/images/readme-images/404-Mobile.png" alt="error404">
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contact
