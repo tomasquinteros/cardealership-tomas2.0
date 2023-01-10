@@ -140,21 +140,22 @@ The breakpoints used to create the responsive design:
   * [Breakpoints - Bootstrap](https://getbootstrap.com/docs/5.3/layout/breakpoints/)
 
   ### Screenshots 
-    <h3>Mobile</h3> 
+  <h3>Mobile</h3> 
 
-    <img src="public/images/readme-images/Mobile.png" alt="screen-mobile">
+  <img src="public/images/readme-images/Mobile.png" alt="screen-mobile">
 
-    <h3>Tablet</h3>
+  <h3>Tablet</h3>
 
-    <img src="public/images/readme-images/Tablet.png" alt="screen-tablet">
+  <img src="public/images/readme-images/Tablet.png" alt="screen-tablet">
 
-    <h3>Laptop</h3>
+  <h3>Laptop</h3>
 
-    <img srec="public/images/readme-images/Laptop.png" alt="screen-laptop">
+  <img srec="public/images/readme-images/Laptop.png" alt="screen-laptop">
 
-    <h3>Desktop</h3>
+  <h3>Desktop</h3>
 
-    <img src="public/images/readme-images/Desktop.png" alt="screen-desktop">
+  <img src="public/images/readme-images/Desktop.png" alt="screen-desktop">
+  </div>
   
   ### What's more...
 
