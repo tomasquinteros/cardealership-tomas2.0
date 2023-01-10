@@ -142,15 +142,19 @@ The breakpoints used to create the responsive design:
   ### Screenshots 
   <div align="center">
     ### Mobile 
+
     <img src="public/images/readme-images/Mobile.png" alt="screen-mobile">
 
-    ### Tablet 
+    ### Tablet
+
     <img src="public/images/readme-images/Tablet.png" alt="screen-tablet">
 
     ### Laptop
+
     <img srec="public/images/readme-images/Laptop.png" alt="screen-laptop">
 
     ### Desktop
+    
     <img src="public/images/readme-images/Desktop.png" alt="screen-desktop">
   </div>
   
