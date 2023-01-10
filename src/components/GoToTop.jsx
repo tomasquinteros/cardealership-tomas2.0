@@ -1,5 +1,5 @@
 
-import {FaAngleDoubleUp} from 'react-icons/fa'
+import { FaAngleDoubleUp } from 'react-icons/fa'
 
 const GoToTop = () => {
    const goToTop = () => {
@@ -11,8 +11,8 @@ const GoToTop = () => {
    }
    return (
       <button onClick={goToTop} className="go-to-top">
-         <FaAngleDoubleUp/>
+         <FaAngleDoubleUp />
       </button>
    )
 }
-export {GoToTop}
+export { GoToTop }

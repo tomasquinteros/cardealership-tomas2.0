@@ -16,9 +16,9 @@ const ListOfDetails = ({ car, arrayDetails }) => {
   }, [arrayDetails, details]);
 
   if (loading) {
-    return <Loader/>
+    return <Loader />
   } else {
-      return (<DescriptionContainer details={details[0]} car={car}/>);
+    return (<DescriptionContainer details={details[0]} car={car} />);
 
   }
 };

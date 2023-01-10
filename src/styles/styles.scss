@@ -54,11 +54,11 @@ p {
 @import '../components/Layout/Footer/footer';
 
 // Pages
-@import '../components/Pages/Home/home.scss';
-@import '../components/Pages/Product/product';
+@import '../components/Pages/Home/home';
+@import '../components/Pages/Models/models';
 @import '../components/Pages/About/about';
 @import '../components/Pages/Contact/contact';
-@import '../components/Pages/Product/components_products/description/description.scss';
+@import '../components/Pages/Models/components_models/description/description.scss';
 // Props 
 @import 'Carousel-Overlay.scss';
 @import 'Loader-Error404.scss';

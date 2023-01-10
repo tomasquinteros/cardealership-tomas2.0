@@ -4,45 +4,45 @@ import { useEffect } from "react";
 // Import components
 import { Nav } from "../components/Layout/Navbar/Nav";
 import { Footer } from "../components/Layout/Footer/Footer";
-import {GoToTop} from '../components/GoToTop';
+import { GoToTop } from '../components/GoToTop';
 
 // Import Pages
 import { Home } from "../components/Pages/Home/Home";
-import {Models} from "../components/Pages/Product/Models"
+import { Models } from "../components/Pages/Models/Models"
 import { About } from "../components/Pages/About/About";
 import { Contact } from "../components/Pages/Contact/Contact";
-import {Description} from "./Pages/Product/components_products/description/Description"
+import { Description } from "./Pages/Models/components_models/description/Description"
 
 // Create function to leave page up
 const ScrollToTop = () => {
   const { pathname } = useLocation();
-    useEffect(() => {
-      window.scrollTo({
-        top: 0,
-        left:0,
-        behavior: 'smooth'
-      });
-    }, [pathname]);
-  }
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+  }, [pathname]);
+}
 
 
 function App() {
   return (
     <div className="App">
-      <GoToTop/>
+      <GoToTop />
       <BrowserRouter>
-        <ScrollToTop/>
+        <ScrollToTop />
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/models" element={<Models />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/models/:model" element={<Description/>}/>
-          <Route/>
+          <Route path="/models/:model" element={<Description />} />
+          <Route />
         </Routes>
       </BrowserRouter>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

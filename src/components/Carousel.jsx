@@ -10,13 +10,13 @@ const Carousel = props => {
       autoplaySpeed: 1400,
       fade: true,
       autoplay: true
-      }
-      return (
+   }
+   return (
       <div>
          <Slider {...settings} >
-            {props.hero.map(image => <img key={image} className={props.class} src={image} alt="hero_image"/>)}
-         </Slider>    
+            {props.hero.map(image => <img key={image} className={props.class} src={image} alt="hero_image" />)}
+         </Slider>
       </div>)
 }
 
-export {Carousel};
+export { Carousel };

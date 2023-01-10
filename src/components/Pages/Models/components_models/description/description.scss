@@ -1,4 +1,4 @@
-.description {
+.Description {
    background-image: url('../assets/bg-Description2.png');
    .content {
       padding: 150px 20px 100px 20px;
@@ -81,7 +81,7 @@
 }
 
 @media (max-width:768px) {
-   .description {
+   .Description {
       .container {
          flex-direction: column;
          .img-container {

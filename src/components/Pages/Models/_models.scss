@@ -4,7 +4,7 @@
    width: 100%;
 }
 
-.content {
+.Content {
    .marca {
       padding: 20px;
       background-image: linear-gradient(45deg, rgb(51, 51, 51), #019fb6);
@@ -72,7 +72,7 @@
       }
 }
 @media (min-width:768px) {
-   .content {
+   .Content {
       .cards {
          gap: 0px;
          grid-template-columns: 1fr 1fr;
@@ -81,7 +81,7 @@
 }
 
 @media (min-width:1200px) {
-   .content {
+   .Content {
       .cards {
          grid-template-columns: 1fr 1fr 1fr;
          gap: 0px;

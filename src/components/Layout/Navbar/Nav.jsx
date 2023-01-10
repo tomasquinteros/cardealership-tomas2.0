@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { useState, useRef } from "react";
-import {FaBars, FaTimes} from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Nav = () => {
   const [navbar, setNavbar] = useState(false);
@@ -15,7 +15,7 @@ const Nav = () => {
 
   const navRef = useRef();
   const showNavbar = () => {
-      navRef.current.classList.toggle("responsive-nav");
+    navRef.current.classList.toggle("responsive-nav");
   }
 
   return (
@@ -25,7 +25,7 @@ const Nav = () => {
         <nav ref={navRef}>
           <ul>
             <li>
-              <NavLink onClick={showNavbar} className={({ isActive }) =>isActive ? "hover active" : "hover"}
+              <NavLink onClick={showNavbar} className={({ isActive }) => isActive ? "hover active" : "hover"}
                 to="/">HOME</NavLink>
             </li>
             <li>
@@ -41,14 +41,14 @@ const Nav = () => {
                 to="/contact">CONTACT</NavLink>
             </li>
             <li>
-              <button className="btn-nav btn-close"  onClick={showNavbar}>
-                <FaTimes/>
+              <button className="btn-nav btn-close" onClick={showNavbar}>
+                <FaTimes />
               </button>
             </li>
           </ul>
         </nav>
         <button className="btn-nav" onClick={showNavbar}>
-          <FaBars/>
+          <FaBars />
         </button>
       </div>
     </header>
