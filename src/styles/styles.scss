@@ -58,10 +58,8 @@ p {
 @import '../components/Pages/Product/product';
 @import '../components/Pages/About/about';
 @import '../components/Pages/Contact/contact';
+@import '../components/Pages/Product/components_products/description/description.scss';
 // Props 
-@import 'carousel.scss';
-@import 'overlay.scss';
-@import 'loader.scss';
-@import 'error404.scss';
-@import 'description.scss'
+@import 'Carousel-Overlay.scss';
+@import 'Loader-Error404.scss';
 //Screens
