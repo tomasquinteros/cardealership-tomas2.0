@@ -1,198 +1,364 @@
-
-
 [
-    {
-        "id": 1,
-        "model": "A3",
-        "price": "42.000",
-        "img": ["../../../images/imagesProducts/AUDI/A3/A3-1.jpg", "../../../images/imagesProducts/AUDI/A3/A3-2.jpg","../../../images/imagesProducts/AUDI/A3/A3-3.jpg","../../../images/imagesProducts/AUDI/A3/A3-4.jpg","../../../images/imagesProducts/AUDI/A3/A3-INTERIOR1.jpg","../../../images/imagesProducts/AUDI/A3/A3-INTERIOR2.jpg"],
-        "make": "Audi",
-        "serie": ""
-    },
-    {
-        "id": 2,
-        "model": "S3",
-        "price": "41.340",
-        "img": ["../../../images/imagesProducts/AUDI/S3/S3-1.jpg","../../../images/imagesProducts/AUDI/S3/S3-2.jpg","../../../images/imagesProducts/AUDI/S3/S3-3.jpg", "../../../images/imagesProducts/AUDI/S3/S3-4.jpg", "../../../images/imagesProducts/AUDI/S3/S3-INTERIOR1.jpg", "../../../images/imagesProducts/AUDI/S3/S3-INTERIOR2.jpg"],
-        "make": "Audi",
-        "serie": ""
-    },
-    {
-        "id": 3,
-        "model": "A4",
-        "price": "57.900",
-        "img": ["../../../images/imagesProducts/AUDI/A4/A4-1.jpg", "../../../images/imagesProducts/AUDI/A4/A4-2.jpg", "../../../images/imagesProducts/AUDI/A4/A4-3.jpg", "../../../images/imagesProducts/AUDI/A4/A4-4.jpg", "../../../images/imagesProducts/AUDI/A4/A4-INTERIOR1.jpg", "../../../images/imagesProducts/AUDI/A4/A4-INTERIOR2.jpg"],
-        "make": "Audi",
-        "serie": ""
-    },
-    {
-        "id": 4,
-        "model": "A6",
-        "price": "67.908",
-        "img": ["../../../images/imagesProducts/AUDI/A6/A6-1.jpg", "../../../images/imagesProducts/AUDI/A6/A6-2.jpg", "../../../images/imagesProducts/AUDI/A6/A6-3.jpg", "../../../images/imagesProducts/AUDI/A6/A6-4.jpg", "../../../images/imagesProducts/AUDI/A6/A6-INTERIOR1.jpg", "../../../images/imagesProducts/AUDI/A6/A6-INTERIOR2.jpg"],
-        "make": "Audi",
-        "serie": ""
-    },
-    {
-        "id": 5,
-        "model": "Q3",
-        "price": "42.850",
-        "img": ["../../../images/imagesProducts/AUDI/Q3/Q3-1.jpg", "../../../images/imagesProducts/AUDI/Q3/Q3-2.jpg", "../../../images/imagesProducts/AUDI/Q3/Q3-3.jpg", "../../../images/imagesProducts/AUDI/Q3/Q3-4.jpg", "../../../images/imagesProducts/AUDI/Q3/Q3-INTERIOR1.jpg", "../../../images/imagesProducts/AUDI/Q3/Q3-INTERIOR2.jpg"],
-        "make": "Audi",
-        "serie": ""
-    },
-    {
-        "id": 6,
-        "model": "Q5",
-        "price": "79.850",
-        "img": ["../../../images/imagesProducts/AUDI/Q5/Q5-1.jpg", "../../../images/imagesProducts/AUDI/Q5/Q5-2.jpg", "../../../images/imagesProducts/AUDI/Q5/Q5-3.jpg", "../../../images/imagesProducts/AUDI/Q5/Q5-4.jpg", "../../../images/imagesProducts/AUDI/Q5/Q5-INTERIOR1.jpg", "../../../images/imagesProducts/AUDI/Q5/Q5-INTERIOR2.jpg"],
-        "make": "Audi",
-        "serie": ""
-    },
-    {
-        "id": 7,
-        "model": "C300",
-        "price": "84.000",
-        "img": ["../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-2.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-3.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-INTERIOR1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-INTERIOR2.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-INTERIOR3.jpg"],
-        "make": "Mercedes Benz",
-        "serie": "Clase C"
-        
-    },
-    
-    {
-        "id": 8,
-        "model": "E350",
-        "price": "54.950",
-        "img": ["../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-2.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-3.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-4.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-INTERIOR1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-INTERIOR2.jpg"],
-        "make": "Mercedes Benz",
-        "serie": "Clase E"
-        
-    },
-    
-    {
-        "id": 9,
-        "model": "S560",
-        "price": "170.790",
-        "img": ["../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-2.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-3.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-INTERIOR1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-INTERIOR2.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-INTERIOR3.jpg"],
-        "make": "Mercedes Benz",
-        "serie": "Clase S"
-        
-    },
-    {
-        "id": 10,
-        "model": "GLA250",
-        "price": "39.200",
-        "img": ["../../../images/imagesProducts/MERCEDES-BENZ/GLA250/GLA250-1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/GLA250/GLA250-2.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/GLA250/GLA250-3.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/GLA250/GLA250-INTERIOR1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/GLA250/GLA250-INTERIOR2.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/GLA250/GLA250-INTERIOR3.jpg"],
-        "make": "Mercedes Benz",
-        "serie": "Clase GLA250"
-        
-    },
-    {
-        "id": 11,
-        "model": "G550",
-        "price": "310.000",
-        "img": ["../../../images/imagesProducts/MERCEDES-BENZ/G550/G550-1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/G550/G550-2.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/G550/G550-3.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/G550/G550-INTERIOR1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/G550/G550-INTERIOR2.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/G550/G550-INTERIOR3.jpg"],
-        "make": "Mercedes Benz",
-        "serie": "Clase G"
-    },{
-        "id": 12,
-        "model": "GLC300",
-        "price": "96.500",
-        "img": ["../../../images/imagesProducts/MERCEDES-BENZ/GLC300/GLC300-1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/GLC300/GLC300-2.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/GLC300/GLC300-3.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/GLC300/GLC300-4.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/GLC300/GLC300-INTERIOR1.jpg", "../../../images/imagesProducts/MERCEDES-BENZ/GLC300/GLC300-INTERIOR2.jpg"],
-        "make": "Mercedes Benz",
-        "serie": "Clase GLC"
-    },
-    {"id": 13,
-        "model": "M2",
-        "price": "112.100",
-        "img": ["../../../images/imagesProducts/BMW/M2/M2-1.jpg", "../../../images/imagesProducts/BMW/M2/M2-2.jpg", "../../../images/imagesProducts/BMW/M2/M2-3.jpg", "../../../images/imagesProducts/BMW/M2/M2-4.jpg", "../../../images/imagesProducts/BMW/M2/M2-INTERIOR1.jpg", "../../../images/imagesProducts/BMW/M2/M2-INTERIOR2.jpg"],
-        "make": "BMW",
-        "serie": "Serie 2 Competition"
-        
-    },
-    {
-        "id": 14,
-        "model": "330i",
-        "price": "43.295",
-        "img": ["../../../images/imagesProducts/BMW/330i/330i-1.jpg", "../../../images/imagesProducts/BMW/330i/330i-2.jpg", "../../../images/imagesProducts/BMW/330i/330i-3.jpg", "../../../images/imagesProducts/BMW/330i/330i-4.jpg", "../../../images/imagesProducts/BMW/330i/330i-INTERIOR1.jpg", "../../../images/imagesProducts/BMW/330i/330i-INTERIOR2.jpg"],
-        "make": "BMW",
-        "serie": "Serie 3"
-    },{
-        "id": 15,
-        "model": "750li",
-        "price": "103.995",
-        "img": ["../../../images/imagesProducts/BMW/750i/750i-1.jpg", "../../../images/imagesProducts/BMW/750i/750i-2.jpg", "../../../images/imagesProducts/BMW/750i/750i-3.jpg", "../../../images/imagesProducts/BMW/750i/750i-4.jpg", "../../../images/imagesProducts/BMW/750i/750i-INTERIOR1.jpg", "../../../images/imagesProducts/BMW/750i/750i-INTERIOR2.jpg"],
-        "make": "BMW",
-        "serie": "Serie 7"
-    },
-    {
-        "id": 16,
-        "model": "530e",
-        "price": "57.359",
-        "img": ["../../../images/imagesProducts/BMW/530e/530e-1.jpg", "../../../images/imagesProducts/BMW/530e/530e-2.jpg", "../../../images/imagesProducts/BMW/530e/530e-3.jpg", "../../../images/imagesProducts/BMW/530e/530e-4.jpg", "../../../images/imagesProducts/BMW/530e/530e-INTERIOR1.jpg", "../../../images/imagesProducts/BMW/530e/530e-INTERIOR2.jpg"],
-        "make": "BMW",
-        "serie": "Serie 5"
-    },
-    {
-        "id": 17,
-        "model": "X3",
-        "price": "79.900",
-        "img": ["../../../images/imagesProducts/BMW/X3/X3-1.jpg", "../../../images/imagesProducts/BMW/X3/X3-2.jpg", "../../../images/imagesProducts/BMW/X3/X3-3.jpg", "../../../images/imagesProducts/BMW/X3/X3-4.jpg", "../../../images/imagesProducts/BMW/X3/X3-INTERIOR1.jpg", "../../../images/imagesProducts/BMW/X3/X3-INTERIOR2.jpg"],
-        "make": "BMW",
-        "serie": "Serie X"
-    },
-    {
-        "id": 18,
-        "model": "X5",
-        "price": "164.900",
-        "img": ["../../../images/imagesProducts/BMW/X5/X5-1.jpg", "../../../images/imagesProducts/BMW/X5/X5-2.jpg", "../../../images/imagesProducts/BMW/X5/X5-3.jpg", "../../../images/imagesProducts/BMW/X5/X5-4.jpg", "../../../images/imagesProducts/BMW/X5/X5-INTERIOR1.jpg", "../../../images/imagesProducts/BMW/X5/X5-INTERIOR2.jpg"],
-        "make": "BMW",
-        "serie": "Serie X"
-    },
-    {"id": 19,
-        "model": "718 Cayman",
-        "price": "187.000",
-        "img": ["../../../images/imagesProducts/PORSCHE/CAYMAN/CAYMAN718-1.jpg", "../../../images/imagesProducts/PORSCHE/CAYMAN/CAYMAN718-2.jpg", "../../../images/imagesProducts/PORSCHE/CAYMAN/CAYMAN718-3.jpg", "../../../images/imagesProducts/PORSCHE/CAYMAN/CAYMAN718-4.jpg", "../../../images/imagesProducts/PORSCHE/CAYMAN/CAYMAN718-INTERIOR1.jpg", "../../../images/imagesProducts/PORSCHE/CAYMAN/CAYMAN718-INTERIOR2.jpg"],
-        "make": "Porsche",
-        "serie": ""
-    },
-    {
-        "id": 20,
-        "model": "911 GT3",
-        "price": "171.000",
-        "img": ["../../../images/imagesProducts/PORSCHE/911GT3/911GT3-1.jpg", "../../../images/imagesProducts/PORSCHE/911GT3/911GT3-2.jpg", "../../../images/imagesProducts/PORSCHE/911GT3/911GT3-3.jpg", "../../../images/imagesProducts/PORSCHE/911GT3/911GT3-4.jpg", "../../../images/imagesProducts/PORSCHE/911GT3/911GT3-INTERIOR1.jpg", "../../../images/imagesProducts/PORSCHE/911GT3/911GT3-INTERIOR2.jpg"],
-        "make": "Porsche",
-        "serie": ""
-    },
-    {
-        "id": 21,
-        "model": "Cayenne",
-        "price": "192.600",
-        "img": ["../../../images/imagesProducts/PORSCHE/CAYENNE/CAYENNE-1.jpg", "../../../images/imagesProducts/PORSCHE/CAYENNE/CAYENNE-2.jpg", "../../../images/imagesProducts/PORSCHE/CAYENNE/CAYENNE-3.jpg", "../../../images/imagesProducts/PORSCHE/CAYENNE/CAYENNE-4.jpg", "../../../images/imagesProducts/PORSCHE/CAYENNE/CAYENNE-INTERIOR1.jpg", "../../../images/imagesProducts/PORSCHE/CAYENNE/CAYENNE-INTERIOR2.jpg"],
-        "make": "Porsche",
-        "serie": ""
-    },
-    {
-        "id": 22,
-        "model": "Panamera 4",
-        "price": "328.800",
-        "img": ["../../../images/imagesProducts/PORSCHE/PANAMERA/PANAMERA-1.jpg", "../../../images/imagesProducts/PORSCHE/PANAMERA/PANAMERA-2.jpg", "../../../images/imagesProducts/PORSCHE/PANAMERA/PANAMERA-3.jpg", "../../../images/imagesProducts/PORSCHE/PANAMERA/PANAMERA-4.jpg", "../../../images/imagesProducts/PORSCHE/PANAMERA/PANAMERA-INTERIOR1.jpg", "../../../images/imagesProducts/PORSCHE/PANAMERA/PANAMERA-INTERIOR2.jpg"],
-        "make": "Porsche",
-        "serie": ""
-    },
-    {
-        "id": 23,
-        "model": "Taycan GTS",
-        "price": "324.800",
-        "img": ["../../../images/imagesProducts/PORSCHE/TAYCANGTS/TAYCAN-1.jpg", "../../../images/imagesProducts/PORSCHE/TAYCANGTS/TAYCAN-2.jpg", "../../../images/imagesProducts/PORSCHE/TAYCANGTS/TAYCAN-3.jpg", "../../../images/imagesProducts/PORSCHE/TAYCANGTS/TAYCAN-4.jpg", "../../../images/imagesProducts/PORSCHE/TAYCANGTS/TAYCAN-INTERIOR1.jpg", "../../../images/imagesProducts/PORSCHE/TAYCANGTS/TAYCAN-INTERIOR2.jpg"],
-        "make": "Porsche",
-        "serie": ""
-    }, {
-        "id": 24,
-        "model": "Macan GTS",
-        "price": "141.700",
-        "img": ["../../../images/imagesProducts/PORSCHE/MACANGTS/MACAN-1.jpg", "../../../images/imagesProducts/PORSCHE/MACANGTS/MACAN-2.jpg", "../../../images/imagesProducts/PORSCHE/MACANGTS/MACAN-3.jpg", "../../../images/imagesProducts/PORSCHE/MACANGTS/MACAN-4.jpg", "../../../images/imagesProducts/PORSCHE/MACANGTS/MACAN-INTERIOR1.jpg", "../../../images/imagesProducts/PORSCHE/MACANGTS/MACAN-INTERIOR2.jpg"],
-        "make": "Porsche",
-        "serie": ""
-    }
+  {
+    "id": 1,
+    "model": "A3",
+    "price": "42.000",
+    "img": [
+      "../../../images/imagesProducts/AUDI/A3/A3-1.jpg",
+      "../../../images/imagesProducts/AUDI/A3/A3-2.jpg",
+      "../../../images/imagesProducts/AUDI/A3/A3-3.jpg",
+      "../../../images/imagesProducts/AUDI/A3/A3-4.jpg",
+      "../../../images/imagesProducts/AUDI/A3/A3-INTERIOR1.jpg",
+      "../../../images/imagesProducts/AUDI/A3/A3-INTERIOR2.jpg"
+    ],
+    "make": "Audi",
+    "serie": ""
+  },
+  {
+    "id": 2,
+    "model": "S3",
+    "price": "41.340",
+    "img": [
+      "../../../images/imagesProducts/AUDI/S3/S3-1.jpg",
+      "../../../images/imagesProducts/AUDI/S3/S3-2.jpg",
+      "../../../images/imagesProducts/AUDI/S3/S3-3.jpg",
+      "../../../images/imagesProducts/AUDI/S3/S3-4.jpg",
+      "../../../images/imagesProducts/AUDI/S3/S3-INTERIOR1.jpg",
+      "../../../images/imagesProducts/AUDI/S3/S3-INTERIOR2.jpg"
+    ],
+    "make": "Audi",
+    "serie": ""
+  },
+  {
+    "id": 3,
+    "model": "A4",
+    "price": "57.900",
+    "img": [
+      "../../../images/imagesProducts/AUDI/A4/A4-1.jpg",
+      "../../../images/imagesProducts/AUDI/A4/A4-2.jpg",
+      "../../../images/imagesProducts/AUDI/A4/A4-3.jpg",
+      "../../../images/imagesProducts/AUDI/A4/A4-4.jpg",
+      "../../../images/imagesProducts/AUDI/A4/A4-INTERIOR1.jpg",
+      "../../../images/imagesProducts/AUDI/A4/A4-INTERIOR2.jpg"
+    ],
+    "make": "Audi",
+    "serie": ""
+  },
+  {
+    "id": 4,
+    "model": "A6",
+    "price": "67.908",
+    "img": [
+      "../../../images/imagesProducts/AUDI/A6/A6-1.jpg",
+      "../../../images/imagesProducts/AUDI/A6/A6-2.jpg",
+      "../../../images/imagesProducts/AUDI/A6/A6-3.jpg",
+      "../../../images/imagesProducts/AUDI/A6/A6-4.jpg",
+      "../../../images/imagesProducts/AUDI/A6/A6-INTERIOR1.jpg",
+      "../../../images/imagesProducts/AUDI/A6/A6-INTERIOR2.jpg"
+    ],
+    "make": "Audi",
+    "serie": ""
+  },
+  {
+    "id": 5,
+    "model": "Q3",
+    "price": "42.850",
+    "img": [
+      "../../../images/imagesProducts/AUDI/Q3/Q3-1.jpg",
+      "../../../images/imagesProducts/AUDI/Q3/Q3-2.jpg",
+      "../../../images/imagesProducts/AUDI/Q3/Q3-3.jpg",
+      "../../../images/imagesProducts/AUDI/Q3/Q3-4.jpg",
+      "../../../images/imagesProducts/AUDI/Q3/Q3-INTERIOR1.jpg",
+      "../../../images/imagesProducts/AUDI/Q3/Q3-INTERIOR2.jpg"
+    ],
+    "make": "Audi",
+    "serie": ""
+  },
+  {
+    "id": 6,
+    "model": "Q5",
+    "price": "79.850",
+    "img": [
+      "../../../images/imagesProducts/AUDI/Q5/Q5-1.jpg",
+      "../../../images/imagesProducts/AUDI/Q5/Q5-2.jpg",
+      "../../../images/imagesProducts/AUDI/Q5/Q5-3.jpg",
+      "../../../images/imagesProducts/AUDI/Q5/Q5-4.jpg",
+      "../../../images/imagesProducts/AUDI/Q5/Q5-INTERIOR1.jpg",
+      "../../../images/imagesProducts/AUDI/Q5/Q5-INTERIOR2.jpg"
+    ],
+    "make": "Audi",
+    "serie": ""
+  },
+  {
+    "id": 7,
+    "model": "C300",
+    "price": "84.000",
+    "img": [
+      "../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-1.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-2.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-3.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-INTERIOR1.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-INTERIOR2.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/C300/C300-INTERIOR3.jpg"
+    ],
+    "make": "Mercedes Benz",
+    "serie": "Clase C"
+  },
+
+  {
+    "id": 8,
+    "model": "E350",
+    "price": "54.950",
+    "img": [
+      "../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-1.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-2.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-3.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-4.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-INTERIOR1.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/E350/E350-INTERIOR2.jpg"
+    ],
+    "make": "Mercedes Benz",
+    "serie": "Clase E"
+  },
+
+  {
+    "id": 9,
+    "model": "S560",
+    "price": "170.790",
+    "img": [
+      "../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-1.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-2.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-3.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-INTERIOR1.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-INTERIOR2.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/S560/S560-INTERIOR3.jpg"
+    ],
+    "make": "Mercedes Benz",
+    "serie": "Clase S"
+  },
+  {
+    "id": 10,
+    "model": "GLA250",
+    "price": "39.200",
+    "img": [
+      "../../../images/imagesProducts/MERCEDES-BENZ/GLA250/GLA250-1.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/GLA250/GLA250-2.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/GLA250/GLA250-3.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/GLA250/GLA250-INTERIOR1.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/GLA250/GLA250-INTERIOR2.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/GLA250/GLA250-INTERIOR3.jpg"
+    ],
+    "make": "Mercedes Benz",
+    "serie": "Clase GLA250"
+  },
+  {
+    "id": 11,
+    "model": "G550",
+    "price": "310.000",
+    "img": [
+      "../../../images/imagesProducts/MERCEDES-BENZ/G550/G550-1.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/G550/G550-2.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/G550/G550-3.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/G550/G550-INTERIOR1.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/G550/G550-INTERIOR2.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/G550/G550-INTERIOR3.jpg"
+    ],
+    "make": "Mercedes Benz",
+    "serie": "Clase G"
+  },
+  {
+    "id": 12,
+    "model": "GLC300",
+    "price": "96.500",
+    "img": [
+      "../../../images/imagesProducts/MERCEDES-BENZ/GLC300/GLC300-1.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/GLC300/GLC300-2.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/GLC300/GLC300-3.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/GLC300/GLC300-4.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/GLC300/GLC300-INTERIOR1.jpg",
+      "../../../images/imagesProducts/MERCEDES-BENZ/GLC300/GLC300-INTERIOR2.jpg"
+    ],
+    "make": "Mercedes Benz",
+    "serie": "Clase GLC"
+  },
+  {
+    "id": 13,
+    "model": "M2",
+    "price": "112.100",
+    "img": [
+      "../../../images/imagesProducts/BMW/M2/M2-1.jpg",
+      "../../../images/imagesProducts/BMW/M2/M2-2.jpg",
+      "../../../images/imagesProducts/BMW/M2/M2-3.jpg",
+      "../../../images/imagesProducts/BMW/M2/M2-4.jpg",
+      "../../../images/imagesProducts/BMW/M2/M2-INTERIOR1.jpg",
+      "../../../images/imagesProducts/BMW/M2/M2-INTERIOR2.jpg"
+    ],
+    "make": "BMW",
+    "serie": "Serie 2 Competition"
+  },
+  {
+    "id": 14,
+    "model": "330i",
+    "price": "43.295",
+    "img": [
+      "../../../images/imagesProducts/BMW/330i/330i-1.jpg",
+      "../../../images/imagesProducts/BMW/330i/330i-2.jpg",
+      "../../../images/imagesProducts/BMW/330i/330i-3.jpg",
+      "../../../images/imagesProducts/BMW/330i/330i-4.jpg",
+      "../../../images/imagesProducts/BMW/330i/330i-INTERIOR1.jpg",
+      "../../../images/imagesProducts/BMW/330i/330i-INTERIOR2.jpg"
+    ],
+    "make": "BMW",
+    "serie": "Serie 3"
+  },
+  {
+    "id": 15,
+    "model": "750li",
+    "price": "103.995",
+    "img": [
+      "../../../images/imagesProducts/BMW/750i/750i-1.jpg",
+      "../../../images/imagesProducts/BMW/750i/750i-2.jpg",
+      "../../../images/imagesProducts/BMW/750i/750i-3.jpg",
+      "../../../images/imagesProducts/BMW/750i/750i-4.jpg",
+      "../../../images/imagesProducts/BMW/750i/750i-INTERIOR1.jpg",
+      "../../../images/imagesProducts/BMW/750i/750i-INTERIOR2.jpg"
+    ],
+    "make": "BMW",
+    "serie": "Serie 7"
+  },
+  {
+    "id": 16,
+    "model": "530e",
+    "price": "57.359",
+    "img": [
+      "../../../images/imagesProducts/BMW/530e/530e-1.jpg",
+      "../../../images/imagesProducts/BMW/530e/530e-2.jpg",
+      "../../../images/imagesProducts/BMW/530e/530e-3.jpg",
+      "../../../images/imagesProducts/BMW/530e/530e-4.jpg",
+      "../../../images/imagesProducts/BMW/530e/530e-INTERIOR1.jpg",
+      "../../../images/imagesProducts/BMW/530e/530e-INTERIOR2.jpg"
+    ],
+    "make": "BMW",
+    "serie": "Serie 5"
+  },
+  {
+    "id": 17,
+    "model": "X3",
+    "price": "79.900",
+    "img": [
+      "../../../images/imagesProducts/BMW/X3/X3-1.jpg",
+      "../../../images/imagesProducts/BMW/X3/X3-2.jpg",
+      "../../../images/imagesProducts/BMW/X3/X3-3.jpg",
+      "../../../images/imagesProducts/BMW/X3/X3-4.jpg",
+      "../../../images/imagesProducts/BMW/X3/X3-INTERIOR1.jpg",
+      "../../../images/imagesProducts/BMW/X3/X3-INTERIOR2.jpg"
+    ],
+    "make": "BMW",
+    "serie": "Serie X"
+  },
+  {
+    "id": 18,
+    "model": "X5",
+    "price": "164.900",
+    "img": [
+      "../../../images/imagesProducts/BMW/X5/X5-1.jpg",
+      "../../../images/imagesProducts/BMW/X5/X5-2.jpg",
+      "../../../images/imagesProducts/BMW/X5/X5-3.jpg",
+      "../../../images/imagesProducts/BMW/X5/X5-4.jpg",
+      "../../../images/imagesProducts/BMW/X5/X5-INTERIOR1.jpg",
+      "../../../images/imagesProducts/BMW/X5/X5-INTERIOR2.jpg"
+    ],
+    "make": "BMW",
+    "serie": "Serie X"
+  },
+  {
+    "id": 19,
+    "model": "718 Cayman",
+    "price": "187.000",
+    "img": [
+      "../../../images/imagesProducts/PORSCHE/CAYMAN/CAYMAN718-1.jpg",
+      "../../../images/imagesProducts/PORSCHE/CAYMAN/CAYMAN718-2.jpg",
+      "../../../images/imagesProducts/PORSCHE/CAYMAN/CAYMAN718-3.jpg",
+      "../../../images/imagesProducts/PORSCHE/CAYMAN/CAYMAN718-4.jpg",
+      "../../../images/imagesProducts/PORSCHE/CAYMAN/CAYMAN718-INTERIOR1.jpg",
+      "../../../images/imagesProducts/PORSCHE/CAYMAN/CAYMAN718-INTERIOR2.jpg"
+    ],
+    "make": "Porsche",
+    "serie": ""
+  },
+  {
+    "id": 20,
+    "model": "911 GT3",
+    "price": "171.000",
+    "img": [
+      "../../../images/imagesProducts/PORSCHE/911GT3/911GT3-1.jpg",
+      "../../../images/imagesProducts/PORSCHE/911GT3/911GT3-2.jpg",
+      "../../../images/imagesProducts/PORSCHE/911GT3/911GT3-3.jpg",
+      "../../../images/imagesProducts/PORSCHE/911GT3/911GT3-4.jpg",
+      "../../../images/imagesProducts/PORSCHE/911GT3/911GT3-INTERIOR1.jpg",
+      "../../../images/imagesProducts/PORSCHE/911GT3/911GT3-INTERIOR2.jpg"
+    ],
+    "make": "Porsche",
+    "serie": ""
+  },
+  {
+    "id": 21,
+    "model": "Cayenne",
+    "price": "192.600",
+    "img": [
+      "../../../images/imagesProducts/PORSCHE/CAYENNE/CAYENNE-1.jpg",
+      "../../../images/imagesProducts/PORSCHE/CAYENNE/CAYENNE-2.jpg",
+      "../../../images/imagesProducts/PORSCHE/CAYENNE/CAYENNE-3.jpg",
+      "../../../images/imagesProducts/PORSCHE/CAYENNE/CAYENNE-4.jpg",
+      "../../../images/imagesProducts/PORSCHE/CAYENNE/CAYENNE-INTERIOR1.jpg",
+      "../../../images/imagesProducts/PORSCHE/CAYENNE/CAYENNE-INTERIOR2.jpg"
+    ],
+    "make": "Porsche",
+    "serie": ""
+  },
+  {
+    "id": 22,
+    "model": "Panamera 4",
+    "price": "328.800",
+    "img": [
+      "../../../images/imagesProducts/PORSCHE/PANAMERA/PANAMERA-1.jpg",
+      "../../../images/imagesProducts/PORSCHE/PANAMERA/PANAMERA-2.jpg",
+      "../../../images/imagesProducts/PORSCHE/PANAMERA/PANAMERA-3.jpg",
+      "../../../images/imagesProducts/PORSCHE/PANAMERA/PANAMERA-4.jpg",
+      "../../../images/imagesProducts/PORSCHE/PANAMERA/PANAMERA-INTERIOR1.jpg",
+      "../../../images/imagesProducts/PORSCHE/PANAMERA/PANAMERA-INTERIOR2.jpg"
+    ],
+    "make": "Porsche",
+    "serie": ""
+  },
+  {
+    "id": 23,
+    "model": "Taycan GTS",
+    "price": "324.800",
+    "img": [
+      "../../../images/imagesProducts/PORSCHE/TAYCANGTS/TAYCAN-1.jpg",
+      "../../../images/imagesProducts/PORSCHE/TAYCANGTS/TAYCAN-2.jpg",
+      "../../../images/imagesProducts/PORSCHE/TAYCANGTS/TAYCAN-3.jpg",
+      "../../../images/imagesProducts/PORSCHE/TAYCANGTS/TAYCAN-4.jpg",
+      "../../../images/imagesProducts/PORSCHE/TAYCANGTS/TAYCAN-INTERIOR1.jpg",
+      "../../../images/imagesProducts/PORSCHE/TAYCANGTS/TAYCAN-INTERIOR2.jpg"
+    ],
+    "make": "Porsche",
+    "serie": ""
+  },
+  {
+    "id": 24,
+    "model": "Macan GTS",
+    "price": "141.700",
+    "img": [
+      "../../../images/imagesProducts/PORSCHE/MACANGTS/MACAN-1.jpg",
+      "../../../images/imagesProducts/PORSCHE/MACANGTS/MACAN-2.jpg",
+      "../../../images/imagesProducts/PORSCHE/MACANGTS/MACAN-3.jpg",
+      "../../../images/imagesProducts/PORSCHE/MACANGTS/MACAN-4.jpg",
+      "../../../images/imagesProducts/PORSCHE/MACANGTS/MACAN-INTERIOR1.jpg",
+      "../../../images/imagesProducts/PORSCHE/MACANGTS/MACAN-INTERIOR2.jpg"
+    ],
+    "make": "Porsche",
+    "serie": ""
+  }
 ]
