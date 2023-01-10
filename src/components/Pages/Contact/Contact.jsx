@@ -7,7 +7,7 @@ const Contact = () => {
    const { register, formState: { errors }, handleSubmit } = useForm()
    const [viewModal, setViewModal] = useState(false);
    function completed() {
-      if (errors.Name?.message && errors.email?.message && errors.textArea?.message) {
+      if (errors.Name?.message || errors.email?.message || errors.textArea?.message) {
          return false
       } else {
          return true
