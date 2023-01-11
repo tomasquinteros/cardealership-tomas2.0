@@ -1,8 +1,4 @@
 import { useEffect, useState } from "react"
-
-const APIKEY = process.env.REACT_APP_API_KEY;
-console.log(APIKEY)
-
 const DataApi = ({ model }) => {
    const url = 'https://api.api-ninjas.com/v1/cars?limit=20&model=' + model
    const [isLoading, setLoading] = useState(true)
@@ -12,7 +8,7 @@ const DataApi = ({ model }) => {
          fetch(url, {
             method: "GET",
             url: url,
-            headers: { 'X-Api-Key': `${APIKEY}` },
+            headers: { 'X-Api-Key': `${process.env.REACT_APP_API_KEY}` },
             contentType: 'application/json',
          }).then(response => response.json()).then((car) => {
             setDetails(car)
