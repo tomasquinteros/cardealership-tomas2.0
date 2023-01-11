@@ -11,7 +11,7 @@ const DataApi = ({ model }) => {
          fetch(url, {
             method: "GET",
             url: url,
-            headers: { 'X-Api-Key': APIKEY },
+            headers: { 'X-Api-Key': `${APIKEY}` },
             contentType: 'application/json',
          }).then(response => response.json()).then((car) => {
             setDetails(car)
