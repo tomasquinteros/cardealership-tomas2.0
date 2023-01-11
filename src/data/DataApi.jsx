@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 
 const APIKEY = process.env.REACT_APP_API_KEY;
+console.log(APIKEY)
 
 const DataApi = ({ model }) => {
    const url = 'https://api.api-ninjas.com/v1/cars?limit=20&model=' + model
